@@ -1,4 +1,4 @@
-# Default values for helm-n8n.
+# Default values for n8n.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 

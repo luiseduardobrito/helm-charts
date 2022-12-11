@@ -5,5 +5,5 @@
 ### Installing
 
 ```bash
-helm install n8n luiseduardobrito/helm-n8n --namespace n8n --create-namespace
+helm install n8n luiseduardobrito/n8n --namespace n8n --create-namespace
 ```

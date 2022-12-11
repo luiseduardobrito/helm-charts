@@ -1,9 +1,9 @@
 kind: ConfigMap 
 apiVersion: v1 
 metadata:
-  name: {{ include "helm-n8n.fullname" . }}-config
+  name: {{ include "n8n.fullname" . }}-config
   labels:
-    {{- include "helm-n8n.labels" . | nindent 4 }}
+    {{- include "n8n.labels" . | nindent 4 }}
 data:
   N8N_METRICS: {{ .Values.n8n.metrics | quote }}
   N8N_METRICS_PREFIX: n8n_

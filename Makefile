@@ -1,7 +1,7 @@
 HELM_URL := "https://luiseduardobrito.github.io/helm-charts"
 
 package: # Prepares the chart for distribution
-	@helm package ./helm-n8n
+	@helm package ./n8n
 	@helm package ./longhorn
 	@helm repo index --url $(HELM_URL) .
 
