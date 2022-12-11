@@ -3,9 +3,9 @@ entries:
   helm-n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-11T09:45:19.462982723-03:00"
+    created: "2022-12-11T09:51:42.608902998-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: 04245953c9332cbbf93818f6a1aa3fd22b17de51a38aad172a504379e42928d2
+    digest: 417c2a49eb4f1e12a66839b154ba971b6e8aa86a78cf2f3d6fafde08918f0f02
     name: helm-n8n
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-11T09:45:19.46271078-03:00"
+    created: "2022-12-11T09:51:42.608425076-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
     digest: 586871f74dbc65bf80876457a105807f64097ae76e79771e4f98f786fff33cd6
     name: helm-n8n
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://luiseduardobrito.github.io/helm-charts/helm-n8n-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-11T09:45:19.462365218-03:00"
+generated: "2022-12-11T09:51:42.607847866-03:00"

@@ -6,6 +6,8 @@ metadata:
     {{- include "helm-n8n.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
+  annotations:
+    {{- toYaml .Values.service.annotations | nindent 4 }}
   ports:
     - port: {{ .Values.service.port }}
       targetPort: http
