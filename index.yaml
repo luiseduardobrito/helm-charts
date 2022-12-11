@@ -3,9 +3,9 @@ entries:
   helm-n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-11T09:57:24.808977654-03:00"
+    created: "2022-12-11T10:42:04.085234044-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: 905e001c8a364bdd417278fc56ed20e7c9e78dee69993f28507cdec25a83dd86
+    digest: e9d336d3ca77bac405577b81105b8769631b0d42f52f09c4157b9a1cd56e76c5
     name: helm-n8n
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-11T09:57:24.808714106-03:00"
+    created: "2022-12-11T10:42:04.084947834-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
     digest: 586871f74dbc65bf80876457a105807f64097ae76e79771e4f98f786fff33cd6
     name: helm-n8n
@@ -21,4 +21,37 @@ entries:
     urls:
     - https://luiseduardobrito.github.io/helm-charts/helm-n8n-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-11T09:57:24.808354327-03:00"
+  longhorn:
+  - apiVersion: v1
+    appVersion: v1.4.0-dev
+    created: "2022-12-11T10:42:04.087077217-03:00"
+    description: Longhorn is a distributed block storage system for Kubernetes.
+    digest: ae1be9f40d56250d542510b24d4552d30c80e97dc574a29e796b12cf1649926b
+    home: https://github.com/longhorn/longhorn
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/icon/color/longhorn-icon-color.png
+    keywords:
+    - longhorn
+    - storage
+    - distributed
+    - block
+    - device
+    - iscsi
+    - nfs
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: maintainers@longhorn.io
+      name: Longhorn maintainers
+    name: longhorn
+    sources:
+    - https://github.com/longhorn/longhorn
+    - https://github.com/longhorn/longhorn-engine
+    - https://github.com/longhorn/longhorn-instance-manager
+    - https://github.com/longhorn/longhorn-share-manager
+    - https://github.com/longhorn/longhorn-manager
+    - https://github.com/longhorn/longhorn-ui
+    - https://github.com/longhorn/longhorn-tests
+    - https://github.com/longhorn/backing-image-manager
+    urls:
+    - https://luiseduardobrito.github.io/helm-charts/longhorn-1.4.0-dev.tgz
+    version: 1.4.0-dev
+generated: "2022-12-11T10:42:04.084620097-03:00"
