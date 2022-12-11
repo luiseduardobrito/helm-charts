@@ -8,7 +8,7 @@ Add the repository to your local helm client:
   
 ```bash
 helm repo add luiseduardobrito https://luiseduardobrito.github.io/helm-charts/
-repo repo update
+helm repo update
 ```
 
 ## Charts
