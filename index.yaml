@@ -3,9 +3,9 @@ entries:
   longhorn:
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2022-12-11T10:59:49.634052902-03:00"
+    created: "2022-12-11T11:22:46.404430652-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
-    digest: 52cb5e07f9f853b087ee8390a70325456ae60c8773f21551857a9901c096d1f1
+    digest: b65ec87a13a35c500c34022c4f356ba51920837cdfa7ad90e848ac33786bdfbb
     name: longhorn
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-11T10:59:49.634359299-03:00"
+    created: "2022-12-11T11:22:46.404709277-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: 6970fceb0f066a16edd5e3fdde753b47b08d82678d2930ab07d575b503f175ce
+    digest: 8caa9d63b28d6984c421d70768b8ffa95cf914ae6c936caef7024564782947c9
     name: n8n
     type: application
     urls:
     - https://luiseduardobrito.github.io/helm-charts/n8n-0.1.1.tgz
     version: 0.1.1
-generated: "2022-12-11T10:59:49.632384391-03:00"
+generated: "2022-12-11T11:22:46.40330473-03:00"
