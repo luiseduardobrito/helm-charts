@@ -1,9 +1,10 @@
 HELM_URL := "https://luiseduardobrito.github.io/helm-charts"
 
 package: # Prepares the chart for distribution
-	@helm package ./n8n
-	@helm package ./longhorn
 	@helm package ./kubegres-admin
+	@helm package ./longhorn
+	@helm package ./n8n
+	@helm package ./vaultwarden
 	@helm repo index --url $(HELM_URL) .
 
 

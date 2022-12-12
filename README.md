@@ -18,3 +18,4 @@ helm repo update
 | [kubegres-admin](./kubegres-admin) | 1.16.0    | Kubegres is a Kubernetes operator that allows you to easily deploy and manage PostgreSQL clusters.  |
 | [longhorn](./longhorn) | 1.4.0-dev | Longhorn is a distributed block storage system for Kubernetes.                                       |
 | [n8n](./n8n)           | 0.1.1     | n8n is a free and open fair-code licensed node based Workflow Automation Tool. It enables you to automate tasks across different services. |
+| [vaultwarden](./vaultwarden/) | 1.26.0 | A Bitwarden compatible server written in Rust. |
