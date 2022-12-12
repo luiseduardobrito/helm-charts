@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  kubegres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-12T08:17:48.957705898-03:00"
+    description: A Helm chart for the Kubegres Admin to Kubernetes
+    digest: 0e9b9a982bb6938041ba83bf30fce5293a5ec2a49e6fe43608f58ed636fab210
+    name: kubegres
+    type: application
+    urls:
+    - https://luiseduardobrito.github.io/helm-charts/kubegres-0.1.0.tgz
+    version: 0.1.0
   longhorn:
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2022-12-11T11:22:46.404430652-03:00"
+    created: "2022-12-12T08:17:48.958838129-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
-    digest: b65ec87a13a35c500c34022c4f356ba51920837cdfa7ad90e848ac33786bdfbb
+    digest: 4ed9da03b214f3f03ab41e9390686eb284559c6e0634b651380eff5121ffa4aa
     name: longhorn
     type: application
     urls:
@@ -14,12 +25,12 @@ entries:
   n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-11T11:22:46.404709277-03:00"
+    created: "2022-12-12T08:17:48.959655782-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: 8caa9d63b28d6984c421d70768b8ffa95cf914ae6c936caef7024564782947c9
+    digest: e7473d1cd299044dcb27ee449cf4c587bbb5db7f29b0e90fdedb2d2834fbff52
     name: n8n
     type: application
     urls:
     - https://luiseduardobrito.github.io/helm-charts/n8n-0.1.1.tgz
     version: 0.1.1
-generated: "2022-12-11T11:22:46.40330473-03:00"
+generated: "2022-12-12T08:17:48.957362887-03:00"
