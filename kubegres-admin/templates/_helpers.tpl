@@ -1,7 +1,7 @@
 {{/*
 Expand the name of the chart.
 */}}
-{{- define "kubegres.name" -}}
+{{- define "kubegres-admin.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
@@ -10,7 +10,7 @@ Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 If release name contains chart name it will be used as a full name.
 */}}
-{{- define "kubegres.fullname" -}}
+{{- define "kubegres-admin.fullname" -}}
 {{- if .Values.fullnameOverride }}
 {{- .Values.fullnameOverride | trunc 63 | trimSuffix "-" }}
 {{- else }}
@@ -26,16 +26,16 @@ If release name contains chart name it will be used as a full name.
 {{/*
 Create chart name and version as used by the chart label.
 */}}
-{{- define "kubegres.chart" -}}
+{{- define "kubegres-admin.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
 {{/*
 Common labels
 */}}
-{{- define "kubegres.labels" -}}
-helm.sh/chart: {{ include "kubegres.chart" . }}
-{{ include "kubegres.selectorLabels" . }}
+{{- define "kubegres-admin.labels" -}}
+helm.sh/chart: {{ include "kubegres-admin.chart" . }}
+{{ include "kubegres-admin.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
@@ -45,17 +45,17 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{/*
 Selector labels
 */}}
-{{- define "kubegres.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "kubegres.name" . }}
+{{- define "kubegres-admin.selectorLabels" -}}
+app.kubernetes.io/name: {{ include "kubegres-admin.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 
 {{/*
 Create the name of the service account to use
 */}}
-{{- define "kubegres.serviceAccountName" -}}
+{{- define "kubegres-admin.serviceAccountName" -}}
 {{- if .Values.serviceAccount.create }}
-{{- default (include "kubegres.fullname" .) .Values.serviceAccount.name }}
+{{- default (include "kubegres-admin.fullname" .) .Values.serviceAccount.name }}
 {{- else }}
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}

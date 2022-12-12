@@ -3,7 +3,7 @@ HELM_URL := "https://luiseduardobrito.github.io/helm-charts"
 package: # Prepares the chart for distribution
 	@helm package ./n8n
 	@helm package ./longhorn
-	@helm package ./kubegres
+	@helm package ./kubegres-admin
 	@helm repo index --url $(HELM_URL) .
 
 

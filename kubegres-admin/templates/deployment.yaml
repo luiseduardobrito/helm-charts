@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "kubegres.fullname" . }}
+  name: {{ include "kubegres-admin.fullname" . }}
   labels:
-    {{- include "kubegres.labels" . | nindent 4 }}
+    {{- include "kubegres-admin.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
   selector:
     matchLabels:
-      {{- include "kubegres.selectorLabels" . | nindent 6 }}
+      {{- include "kubegres-admin.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
@@ -18,13 +18,13 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "kubegres.selectorLabels" . | nindent 8 }}
+        {{- include "kubegres-admin.selectorLabels" . | nindent 8 }}
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      serviceAccountName: {{ include "kubegres.serviceAccountName" . }}
+      serviceAccountName: {{ include "kubegres-admin.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
@@ -39,11 +39,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /status
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /status
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
