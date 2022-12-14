@@ -3,22 +3,22 @@
 # Declare variables to be passed into your templates.
 
 config: 
-  settings:
+  settings: |
     title: My Awesome Homepage
     logfile: /app/logs
-  services:
+  services: |
     - Group A:
       - Service A:
           href: http://localhost/
     - Group B:
       - Service B:
           href: http://localhost/
-  widgets: []
+  # widgets: |
     # - unifi_console:
     #     url: https://10.0.1.1
     #     username: my-user
     #     password: my-password
-  bookmarks:
+  bookmarks: |
     - Developer:
       - Github:
           - abbr: GH
