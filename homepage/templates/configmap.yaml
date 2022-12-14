@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "homepage.fullname" . }}-config
+  labels:
+    {{- include "homepage.labels" . | nindent 4 }}
+data:
+  docker.yaml: |
+    ---
+  {{- if .Values.config.services }}
+  services.yaml: |
+    {{- toYaml .Values.config.services | nindent 4 }}
+  {{- end }}
+  {{- if .Values.config.widgets }}
+  widgets.yaml: |
+    {{- toYaml .Values.config.widgets | nindent 4 }}
+  {{- end }}
+  {{- if .Values.config.settings }}
+  settings.yaml: |
+    {{- toYaml .Values.config.settings | nindent 4 }}
+  {{- end }}
+  {{- if .Values.config.bookmarks }}
+  bookmarks.yaml: |
+    {{- toYaml .Values.config.bookmarks | nindent 4 }}
+  {{- end }}

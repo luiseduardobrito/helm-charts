@@ -1,6 +1,7 @@
 HELM_URL := "https://luiseduardobrito.github.io/helm-charts"
 
 package: # Prepares the chart for distribution
+	@helm package ./homepage
 	@helm package ./kubegres-admin
 	@helm package ./longhorn
 	@helm package ./n8n
