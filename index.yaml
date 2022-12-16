@@ -3,9 +3,9 @@ entries:
   homepage:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-16T08:31:54.496818687-03:00"
+    created: "2022-12-16T08:35:44.962995742-03:00"
     description: A Helm chart for Kubernetes
-    digest: 3f891ad63f78c7a8b51101e54bd08696e897bd011c6199573d7a2c1445348ae0
+    digest: 581dbc3cdde96892813760d01bb74d5b09192ccd2b7ad773ff86584c3f56b1af
     name: homepage
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   kubegres-admin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-16T08:31:54.497089377-03:00"
+    created: "2022-12-16T08:35:44.96330756-03:00"
     description: A Helm chart for Kubernetes
-    digest: 32c5a26af8d0c59b111ea969b781a3dfc1c32d2d2c66c59c8a36fae900acafca
+    digest: f15c21753e29b7110eee7b995258e7644c5fe09e15bcde174abb60a8838e4735
     name: kubegres-admin
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   longhorn:
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2022-12-16T08:31:54.500926017-03:00"
+    created: "2022-12-16T08:35:44.966223275-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
-    digest: cc4ef09231158ffb2303ca2c83f424345bea72738575c8df5bd6ffab6389d2a6
+    digest: ea6cea7a3f8d0f2dada42f9fabd20e77d4ef5425b31174bbad1e2fba8086087e
     name: longhorn
     type: application
     urls:
@@ -35,7 +35,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2022-12-16T08:31:54.499742637-03:00"
+    created: "2022-12-16T08:35:44.965027361-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
     digest: 8539bd113c4a19431083911d194496f6687edf76b8d38a9f6f6bd41ce838bf94
     name: longhorn
@@ -46,9 +46,9 @@ entries:
   n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-16T08:31:54.501194573-03:00"
+    created: "2022-12-16T08:35:44.966494506-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: 40954a4762ae56e2d08364cc3a032816245d4994667cb1a2d4e05b67fa63121f
+    digest: 7d43936070801686c25bcaffe8f7517dadee5e065f182ac00bee56ce25e455be
     name: n8n
     type: application
     urls:
@@ -57,12 +57,12 @@ entries:
   vaultwarden:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-16T08:31:54.50147943-03:00"
+    created: "2022-12-16T08:35:44.966771238-03:00"
     description: A Helm chart for Kubernetes
-    digest: 612153ecdde4728b0314940a0bf28bc5490708149f8314cf912eb376fe3efd5c
+    digest: b27ededd5a87d2b5ae7150c010c0d6359a51dcec37d46597547b625a045619d6
     name: vaultwarden
     type: application
     urls:
     - https://luiseduardobrito.github.io/helm-charts/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-16T08:31:54.496434122-03:00"
+generated: "2022-12-16T08:35:44.962625905-03:00"
