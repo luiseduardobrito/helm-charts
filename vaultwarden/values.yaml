@@ -10,6 +10,9 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.26.0-alpine"
 
+env: {}
+# DATABASE_URL: "postgres://postgres:postgres@postgres:5432/postgres"
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
