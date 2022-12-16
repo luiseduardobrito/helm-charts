@@ -11,7 +11,10 @@ image:
   tag: "1.26.0-alpine"
 
 env: {}
-# DATABASE_URL: "postgres://postgres:postgres@postgres:5432/postgres"
+
+vaultwarden: {}
+  # databaseUrl: "postgres://postgres:postgres@postgres:5432/postgres"
+  # adminToken: "changeme"
 
 imagePullSecrets: []
 nameOverride: ""
