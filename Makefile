@@ -5,6 +5,7 @@ package: # Prepares the chart for distribution
 	@helm package ./kubegres-admin
 	@helm package ./longhorn
 	@helm package ./n8n
+	@helm package ./tailscale-relay
 	@helm package ./vaultwarden
 	@helm repo index --url $(HELM_URL) .
 
