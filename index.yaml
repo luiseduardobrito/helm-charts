@@ -3,9 +3,9 @@ entries:
   homepage:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-31T08:28:36.58565281-03:00"
+    created: "2022-12-31T09:30:31.777101281-03:00"
     description: A Helm chart for Kubernetes
-    digest: b8ecc465aca69f82b79d2a2f7ad6ea55e751a743a516c2ecbe02506185db6f37
+    digest: e05d10e17554518e25e4e219b0836af3d4d61cd6ac9045b808189f6e301bfe23
     name: homepage
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   kubegres-admin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-31T08:28:36.585919452-03:00"
+    created: "2022-12-31T09:30:31.777370277-03:00"
     description: A Helm chart for Kubernetes
-    digest: 343a5f8f05be8d770213f034fa8c6ee109a0298356977c5b87738d0bb88e01e2
+    digest: b630cd9f44afe7ce880309b2b7d6dcff56ea62e736b2a7919213910800adeb02
     name: kubegres-admin
     type: application
     urls:
@@ -25,9 +25,9 @@ entries:
   longhorn:
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2022-12-31T08:28:36.589494512-03:00"
+    created: "2022-12-31T09:30:31.780563014-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
-    digest: b7a3c34fcef3f36f41f3a1aaac921d2e2dbe464958559bb97f6f5a7fa569b5f4
+    digest: 7bbaf2dbb093389ef8d3efcf112bfbf3b48feb0db3c60f8c872eae724ebf5950
     name: longhorn
     type: application
     urls:
@@ -35,7 +35,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2022-12-31T08:28:36.5883568-03:00"
+    created: "2022-12-31T09:30:31.779108718-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
     digest: 8539bd113c4a19431083911d194496f6687edf76b8d38a9f6f6bd41ce838bf94
     name: longhorn
@@ -46,9 +46,9 @@ entries:
   music-graph:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-31T08:28:36.590114368-03:00"
+    created: "2022-12-31T09:30:31.78114014-03:00"
     description: A Helm chart for Kubernetes
-    digest: 74eff8efbe43a35b9c37a2e0dee9112f1a89cd54f25f399cf95cb9616465a2bb
+    digest: 873b2276173caa84e99bab4e859bf13df6f48433854b698c41f8878369e968cb
     name: music-graph
     type: application
     urls:
@@ -57,9 +57,9 @@ entries:
   n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2022-12-31T08:28:36.590392302-03:00"
+    created: "2022-12-31T09:30:31.781513172-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: 3b8c45d1a7e212fc27310ef4d46704cd1dc710e41b6e561b28884b1d9e9dc04f
+    digest: a87bec648258aba0d9f6141e511c9007f974a5cb225bf98935e416e5bab4b6a9
     name: n8n
     type: application
     urls:
@@ -68,9 +68,9 @@ entries:
   tailscale-relay:
   - apiVersion: v2
     appVersion: v1.32.3
-    created: "2022-12-31T08:28:36.590682778-03:00"
+    created: "2022-12-31T09:30:31.781901663-03:00"
     description: Deploy a tailscale relay on top of kubernetes
-    digest: 3a3ed24d0e60b46216151c12ea171b9b0a41e52a2080c8af9f6dde26ada89b8a
+    digest: b1e26f4ac20fb0620d1c5fc581f8d68e980b1bbc9ead73026487c63a84bd9b68
     home: https://github.com/mvisonneau/tailscale-relay-over-k8s
     maintainers:
     - email: maxime.visonneau@gmail.com
@@ -84,12 +84,12 @@ entries:
   vaultwarden:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-31T08:28:36.590994555-03:00"
+    created: "2022-12-31T09:30:31.782355487-03:00"
     description: A Helm chart for Kubernetes
-    digest: 826a84862e94cf0880ef31b1b5250a2d5edb6a1f4dc2a35e0521db8a9cd37f4c
+    digest: 9a2ccd98ae06b114fadab9f01904f6910bb42f6557d3f210f7e743c20a4da88c
     name: vaultwarden
     type: application
     urls:
     - https://luiseduardobrito.github.io/helm-charts/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-31T08:28:36.585285529-03:00"
+generated: "2022-12-31T09:30:31.776716587-03:00"
