@@ -4,6 +4,7 @@ package: # Prepares the chart for distribution
 	@helm package ./homepage
 	@helm package ./kubegres-admin
 	@helm package ./longhorn
+	@helm package ./music-graph
 	@helm package ./n8n
 	@helm package ./tailscale-relay
 	@helm package ./vaultwarden
