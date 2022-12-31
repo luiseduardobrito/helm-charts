@@ -41,7 +41,7 @@ spec:
               protocol: TCP
           envFrom:
             - configMapRef:
-                name: {{ include "music-graph-ui.fullname" . }}
+                name: {{ include "music-graph-ui.fullname" . }}-config
           livenessProbe:
             httpGet:
               path: /
