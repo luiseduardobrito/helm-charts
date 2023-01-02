@@ -44,11 +44,11 @@ spec:
                 name: {{ include "music-graph-ui.fullname" . }}-config
           livenessProbe:
             httpGet:
-              path: /
+              path: /api/status
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /api/status
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
