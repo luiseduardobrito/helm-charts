@@ -3,20 +3,31 @@ entries:
   actualbudget:
   - apiVersion: v2
     appVersion: 23.2.9
-    created: "2023-03-03T10:40:25.21702185-03:00"
+    created: "2023-03-03T10:45:15.174098115-03:00"
     description: A Helm chart for Kubernetes
-    digest: 7eca90e7cd31cdcb09243ec74b784e089b3449492b12c0a82ae7b4bf050cb4b4
+    digest: de746d63f59e16c8d976e35052bcf5388678f83f1f00eaecc42e92471d8cc922
     name: actualbudget
     type: application
     urls:
     - https://luiseduardobrito.github.io/helm-charts/actualbudget-0.1.0.tgz
     version: 0.1.0
+  connection-check:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-03T10:45:15.174353638-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 196c256cc569fe5ca387419467a9ee696c8344034049da80f3024d8821369d82
+    name: connection-check
+    type: application
+    urls:
+    - https://luiseduardobrito.github.io/helm-charts/connection-check-0.1.0.tgz
+    version: 0.1.0
   homepage:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-03T10:40:25.217457664-03:00"
+    created: "2023-03-03T10:45:15.174632845-03:00"
     description: A Helm chart for Kubernetes
-    digest: ffef7f1489f87b216b35c6d3643b95d0e7ce3bc94cc2aeb84c56c2098ce6bebb
+    digest: 6a57d0624d9f7a6aac87b5a3570054644cb60d50f42d6803723c8ea1b5626615
     name: homepage
     type: application
     urls:
@@ -25,9 +36,9 @@ entries:
   kubegres-admin:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-03T10:40:25.217859615-03:00"
+    created: "2023-03-03T10:45:15.174875584-03:00"
     description: A Helm chart for Kubernetes
-    digest: 18d2a553d18bdde9eecb68d72cdeba07688b9f9ad28cb4bdd4ad9d88b3f1643a
+    digest: dc39b2df37b7193f207efcb5b9c146746cccc90699202a43166eaa4a30ffab94
     name: kubegres-admin
     type: application
     urls:
@@ -36,9 +47,9 @@ entries:
   longhorn:
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2023-03-03T10:40:25.221919646-03:00"
+    created: "2023-03-03T10:45:15.177725037-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
-    digest: a1af2020fc705c689e6eaa1742d0de07902ca2c158987a10131162fc1f500243
+    digest: 9e7c3fac2cf13ba18a46594f83da48dc2ffcaccd6705cabbe7c0421d7e491910
     name: longhorn
     type: application
     urls:
@@ -46,7 +57,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.4.0-dev
-    created: "2023-03-03T10:40:25.220756686-03:00"
+    created: "2023-03-03T10:45:15.176581436-03:00"
     description: A Helm chart for deploying longhorn to Kubernetes
     digest: 8539bd113c4a19431083911d194496f6687edf76b8d38a9f6f6bd41ce838bf94
     name: longhorn
@@ -57,9 +68,9 @@ entries:
   music-graph:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-03T10:40:25.222508661-03:00"
+    created: "2023-03-03T10:45:15.178296777-03:00"
     description: A Helm chart for Kubernetes
-    digest: 8177183020739bf0899a130416eb852b3cd7e6ff9aeb2172acbddc569cfa878b
+    digest: 5cbb6b704d0701dc16de646f4ba4b6eb310a9b8b04f4f08bf8388ae13a12b0a2
     name: music-graph
     type: application
     urls:
@@ -68,9 +79,9 @@ entries:
   n8n:
   - apiVersion: v2
     appVersion: 0.206.1
-    created: "2023-03-03T10:40:25.222769514-03:00"
+    created: "2023-03-03T10:45:15.178567077-03:00"
     description: A Helm chart for deploying n8n to Kubernetes
-    digest: a0a42f97b7d1d42683451d0fa183cc2cf3315fa0f4fdc94baa16edd8d465d0fd
+    digest: e9ccaf87203857e13a88703a550a6da803c28cee55f44a6f3dcd85ef8ad97f61
     name: n8n
     type: application
     urls:
@@ -79,9 +90,9 @@ entries:
   tailscale-relay:
   - apiVersion: v2
     appVersion: v1.32.3
-    created: "2023-03-03T10:40:25.223029546-03:00"
+    created: "2023-03-03T10:45:15.178831727-03:00"
     description: Deploy a tailscale relay on top of kubernetes
-    digest: bf89aaf8ef7c2d5ad1e2919bfcce3e06e4bc5b6174bb7c3836fe44f61e555af1
+    digest: 120ca1c7404962cdd13b0fc694c0c3d788d73a7f0875305f1caa06674d0a3f2e
     home: https://github.com/mvisonneau/tailscale-relay-over-k8s
     maintainers:
     - email: maxime.visonneau@gmail.com
@@ -95,12 +106,12 @@ entries:
   vaultwarden:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-03T10:40:25.223304316-03:00"
+    created: "2023-03-03T10:45:15.179117497-03:00"
     description: A Helm chart for Kubernetes
-    digest: 86f1e74d8b24e4b75e65433f3f53161294f031b532a08687469321f825ba1582
+    digest: 42c7c7be39c1e192fdccc131f3b9d18380e64d14d30cca313ef2b499bd7dbdd1
     name: vaultwarden
     type: application
     urls:
     - https://luiseduardobrito.github.io/helm-charts/vaultwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-03T10:40:25.216486046-03:00"
+generated: "2023-03-03T10:45:15.17373576-03:00"

@@ -2,6 +2,7 @@ HELM_URL := "https://luiseduardobrito.github.io/helm-charts"
 
 package: # Prepares the chart for distribution
 	@helm package ./actualbudget
+	@helm package ./connection-check
 	@helm package ./homepage
 	@helm package ./kubegres-admin
 	@helm package ./longhorn
