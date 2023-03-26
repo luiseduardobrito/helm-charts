@@ -1,0 +1,21 @@
+# Defines a simples configmap for kubernetes
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "deno-runtime.fullname" . }}
+  labels:
+    {{- include "deno-runtime.labels" . | nindent 4 }}
+data:
+  {{- range $key, $value := .Values.env }}
+  {{ $key }}: {{ $value | quote }}
+  {{- end }}
+---
+# Defines a simples configmap for kubernetes
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "deno-runtime.fullname" . }}-script
+  labels:
+    {{- include "deno-runtime.labels" . | nindent 4 }}
+data:
+  index.ts: {{ .Values.script | quote }}
